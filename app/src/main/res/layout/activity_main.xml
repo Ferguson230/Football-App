@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background">
+
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.deedat.courtcounter.MainActivity">
+
+
+            <TextView
+                style="@style/TeamView"
+                android:text="@string/TeamA"
+               />
+
+            <TextView
+                style="@style/ScoreView"
+                android:id="@+id/team_a_score"
+                android:text="@string/StartingScoreA"
+                />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addSixForTeamA"
+                android:text="@string/TouchdownForA" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addThreeForTeamA"
+                android:text="@string/FieldGoalForA" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addTwoForTeamA"
+                android:text="@string/SafetyForA" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addOneForTeamA"
+                android:text="@string/ExtraPointForA" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="245dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.deedat.courtcounter.MainActivity">
+
+
+            <TextView
+                style="@style/TeamView"
+                android:text="@string/TeamB"
+                 />
+
+            <TextView
+                style="@style/ScoreView"
+                android:id="@+id/team_b_score"
+                android:text="@string/StartingScoreB"
+                 />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addSixForTeamB"
+                android:text="@string/TouchdownForB" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addThreeForTeamB"
+                android:text="@string/FieldGoalForB" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addTwoForTeamB"
+                android:text="@string/SafetyForB" />
+
+            <Button
+                style="@style/ButtonView"
+                android:onClick="addOneForTeamB"
+                android:text="@string/ExtraPointForB" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        style="@style/ResetView"
+        android:onClick="resetScore"
+        android:text="@string/Reset" />
+
+</RelativeLayout>

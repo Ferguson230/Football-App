@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Football App</string>
+    <string name="TeamA">Team A</string>
+    <string name="StartingScoreA">0</string>
+    <string name="TouchdownForA">Touchdown</string>
+    <string name="FieldGoalForA">Field Goal</string>
+    <string name="SafetyForA">Safety</string>
+    <string name="ExtraPointForA">Extra point</string>
+    <string name="TeamB">Team B</string>
+    <string name="StartingScoreB">0</string>
+    <string name="TouchdownForB">Touchdown</string>
+    <string name="FieldGoalForB">Field Goal</string>
+    <string name="SafetyForB">Safety</string>
+    <string name="ExtraPointForB">Extra point</string>
+    <string name="Reset">RESET</string>
+</resources>
